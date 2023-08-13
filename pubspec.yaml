@@ -1,0 +1,52 @@
+name: start_tech_task
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  queen_validators: ^1.0.1
+  intl_phone_field: ^3.2.0
+  http: ^1.1.0
+  shared_preferences: ^2.2.0
+  country_flags: ^2.1.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.11.0
+
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/ali_fouad_logo.png"
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: AlexandriaFLF
+      fonts:
+        - asset: assets/fonts/AlexandriaFLF.ttf
+        - asset: assets/fonts/AlexandriaFLF-Bold.ttf
+        - asset: assets/fonts/AlexandriaFLF-Italic.ttf
