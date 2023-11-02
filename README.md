@@ -1,4 +1,4 @@
-# start_tech_task
+# StartTech Task
 
 A new Flutter application.
 
